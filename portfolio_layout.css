@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/*
+Author: Chunran Kang
+Date:   Feb 15, 2023
+Description: layout 
+*/
+
+.item1{
+    grid-area: title;
+    text-align: center;
+    background-color: white;
+    font-family: "Hanken Grotesk";
+}
+.item2{
+    grid-area: contact;
+}
+.item3{
+    grid-area: skills;
+}
+.item4{
+    grid-area: education;
+}
+
+.item5{
+    grid-area: languages;
+}
+
+.item6{
+    grid-area: profile;
+}
+.item7{
+    grid-area: experience;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: /*3x6 grid*/
+      'title title title'
+      'contact profile profile'
+      'skills experience experience'
+      'education experience experience'
+      'education experience experience'
+      'languages experience experience';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
