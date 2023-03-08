@@ -5,6 +5,21 @@ Date:   Feb 15, 2023
 Description: layout 
 */
 
+@media screen and (min-width: 768px) {
+    .grid-container{
+        background-color: white;
+    }
+}
+  @media screen and (max-width: 768px) {
+    .reHeading{grid-area: reHeading;}
+    .reHeading h4{
+        font-weight: normal;
+    }
+}
+
+
+
+
 .item1{
     grid-area: title;
     text-align: center;
