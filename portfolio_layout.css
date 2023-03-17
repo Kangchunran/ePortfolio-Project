@@ -5,12 +5,24 @@ Date:   Feb 15, 2023
 Description: layout 
 */
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .grid-container{
         background-color: white;
+        padding:
     }
 }
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
+    nav ul>li>a{
+        display: block;
+    }
+    nav ul>li{
+        float:left;
+    }
+    nav ul{
+        list-style-type: none;
+        margin: 0%;
+        padding: 0%;
+    }
     .reHeading{grid-area: reHeading;}
     .reHeading h4{
         font-weight: normal;
