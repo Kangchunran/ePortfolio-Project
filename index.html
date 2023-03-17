@@ -1,77 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
     <title> Chunran Kang - Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="portfolio_base.css">
-    <link rel="stylesheet" href="portfolio_layout.css">
-    <style>
-      body {
-        background-image: url("background.jpg");
-        background-size: cover;
-        background-position: center;
-      }
-      .subtitle {
-        background-color: rgba(71, 212, 255, 0.8);
-        color: rgb(255, 255, 255);
-        border: 2px solid black;
-        margin: 20px;
-        padding: 20px;
-        text-align: center;
-      }
-    </style>
+    <link rel="stylesheet" href="portfolio_index_layout.css">
+
   </head>
   <body>
-    <div>
-      <a href="index.html">Home</a>
-      <a href="goals.html">Goals</a>
-      <a href="skills.html">Skills</a>
-      <a href="resume.html">Resume</a>
-      <a href="contact.html">Contact</a>
-    </div>
-    <div style="background-color: rgba(255, 255, 255, 0.8);">
-      <img src="welcome.png" alt="Welcome" width="800" height="300" style="display: block; margin: auto;">
-      <h1 style="text-align: center; font-size: 60px;">Home</h1>
-      <img src="index.jpg" alt="index" width="600" height="400" style="display: block; margin: auto;">
-    </div>
-    <div class="subtitle">
-      <h2>Welcome</h2>
-      <p>
-        Hi there! My name is Chunran Kang and welcome to my ePortfolio!<br>
-        I am so glad you have found my E-portfolio and I hope you enjoy it.<br>
-      </p>
-    </div>
-    <div class="subtitle">
-      <h2>About Me</h2>
-      <p>
-
-      </p> 
-    </div>
-    <div class="card-body pt-0">
-      <table class="table table-bordered">
-        <tr>
-          <th width="30%">Graduation Year</th>
-          <td width="2%">:</td>
-          <td>2024</td>
-        </tr>
-        <tr>
-          <th width="30%">School:</th>
-          <td width="2%">:</td>
-          <td>Nova Scotia Community College(NSCC)</td>
-        </tr>
-        <tr>
-          <th width="30%">Program:</th>
-          <td width="2%">:</td>
-          <td>IT Database Administration Program</td>
-        </tr>
-      </table>
-    </div>
-    <div class="subtitle">
-      <h2>More About Me</h2>
-      <div class="card-body">
-        <p class="mb-0"><strong class="pr-1">School:</strong>Nova Scotia Community College(NSCC)</p>
-        <p class="mb-0"><strong class="pr-1">Program:</strong>IT Database Administration Program </p>
-        <p class="mb-0"><strong class="pr-1">Graduation Year:</strong>2024</p>
-      </div>
-    </div>
-    <div class="subtitle">
+    <header> 
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="goal.html">Goals</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <img src="welcome.png" alt="Welcome" >
+    </header>
+  
+    <main>
+      <section id="home">
+        <h1>Welcome to My ePortfolio</h1>
+        <p>Here you can find information about me, my skills, goals, resume and contact information.</p>
+      </section>
+  
+      <section id="about">
+        <h2>About Me</h2>
+          <p>
+          My name is Chunran Kang, and I am currently a first-year student at Nova Scotia Community College pursuing a diploma in IT Database Administration.
+          I have always been interested in the field of technology, and I am excited to be learning about databases and how they work.
+          My goal is to gain the knowledge and skills necessary to succeed in this field and hopefully secure a job in IT database administration upon graduation.
+          I am passionate about problem-solving and enjoy working with data, and I believe that this program will equip me with the necessary tools to pursue a career in this field.
+          </p>
+  
+          <p>
+          I have developed foundations in programming languages such as Java and Python, as well as SQL database
+          management. I have also completed coursework in data analysis by using Tableau, which has further
+          developed my analytical and problem-solving skills.
+          Having all the knowledge of database and programming, I can assist in the development and
+          implementation of data optimization, support database backup and recovery processes.
+          </p>
+          <p>
+          In addition, I have 4 years working experience as driving instructor and 4 years as realtor to my technical
+          skills, my strong communication and teamwork abilities can help your team growth. I am a proactive
+          problem solver with excellent analytical, which allow me to quickly identify issues and provide solutions.
+          I have participated in group where I have collaborated with team members to achieve common goals. I am
+          confident that these skills will enable me to contribute effectively to your team.
+          </p>
+  
+  
+  
+      </section>
+  
+      <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume <a href="resume.pdf" target="_blank">here</a>.</p>
+      </section>
+  
+      <section id="education">
+        <h2>Education & Certification</h2>
+        <ul>
+          09/2022 - Present | IT Database Administration in NSCC<br>
+          01/2019 - 03/2019 | Salesperson Licensing Course in Nova Scotia Association of REALTORS<br>
+          05/2009 – 10/2012 | Bachelor of Commerce in Saint Mary’s University<br>
+  
+        </ul>
+      </section>
+  
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at chunrankang@gmail.com or through the form below:</p>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br>
+  
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+  
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br>
+  
+          <input type="submit" value="Send">
+        </form>
+      </section>
+    </main>
+  
+    <footer>
+      <p>&copy; 2023 Chunran Kang. All rights reserved.</p>
+    </footer>
+  </body>
+  </html>
+    
