@@ -1,5 +1,5 @@
 nav {
-    background-color: #333; 
+    background-color: #32579b; 
     display: flex; 
     justify-content: space-between; 
     padding: 10px; 
@@ -25,6 +25,13 @@ nav {
   nav a:hover {
     background-color: #555;
   }
+  footer {
+    background-color: #076b82;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
   @media only screen and (max-width: 640px) {
     nav {
       flex-direction: column; 
@@ -41,4 +48,11 @@ nav {
     nav li {
       margin: 10px 0; 
     }
+    footer {
+      background-color: #510606;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    
 }
