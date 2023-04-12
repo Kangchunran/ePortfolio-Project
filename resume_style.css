@@ -1,0 +1,130 @@
+header h1{
+    text-align:center ;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.pr-1 {
+  padding-right: 5px;
+}
+
+/* Style the education section separately */
+#education {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+#education ul {
+  margin: 10px 0;
+}
+
+#education ul li {
+  margin-bottom: 5px;
+}
+
+/* Style the skills section with icons */
+.skills li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.skills li:before {
+  content: "\2022";
+  margin-right: 5px;
+}
+
+.skills li.html5:before {
+  color: #f16529;
+}
+
+.skills li.htmlcss:before {
+  color: #3c8dbc;
+}
+
+.skills li.pythonjava:before {
+  color: #3572a5;
+}
+
+.skills li.office:before {
+  color: #d83b01;
+}
+
+.skills li.tableau:before {
+  color: #046c9a;
+}
+
+.skills li.sql:before {
+  color: #336791;
+}
+
+.skills li.linux:before {
+  color: #f0ad4e;
+}
+
+/* Style the experience section */
+.experience h4 {
+  color: #3c8dbc;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.experience ul {
+  margin-left: 20px;
+}
+
+.experience li:before {
+  content: "\2022";
+  margin-right: 5px;
+  color: #333;
+}
