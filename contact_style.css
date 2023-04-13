@@ -3,25 +3,6 @@ h1{
   text-align: center;
 }
 
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-  }
-  nav li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  nav a:hover {
-    color: #ccc;
-  }
-
   .container {
     max-width: 800px;
     margin: 0 auto;
